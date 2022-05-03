@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EduMogro/CodoACodo22002/issues"
   },
-  "homepage": "https://github.com/EduMogro/CodoACodo22002#readme"
+  "homepage": "https://github.com/EduMogro/CodoACodo22002#readme",
+  "dependencies": {
+    "mime": "^3.0.0"
+  }
 }
