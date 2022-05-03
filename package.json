@@ -1,0 +1,19 @@
+{
+  "name": "codoacodo22002",
+  "version": "1.0.0",
+  "description": "Ejercicios para la comisión 22002 de Codo a Codo para el curso de Frontend JS 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduMogro/CodoACodo22002.git"
+  },
+  "author": "Eduardo Mogro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduMogro/CodoACodo22002/issues"
+  },
+  "homepage": "https://github.com/EduMogro/CodoACodo22002#readme"
+}
