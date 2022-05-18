@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript - Unidad 2</title>
+    <style>
+        caption {
+            text-align: left;
+        }
+        table {
+            width: 200px;
+            margin: 15px auto;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="tables">
+    </div>
+
+    <script>
+        let initial = 9;
+        let last = 11;
+
+        let tables = document.getElementById('tables');
+
+        for (let i = last; i >= initial; i--) {
+            let table = document.createElement('table');
+            let caption = document.createElement('caption');
+            let tbody = document.createElement('tbody');
+
+            caption.innerHTML = "<b>La tabla del " + i + ":</b>";
+            table.appendChild(caption);
+            tables.appendChild(table);
+            table.appendChild(tbody);
+            
+            for (let j = 1; j <= 9; j++) {
+                let tr = document.createElement('tr');
+                let td = document.createElement('td');
+                td.innerHTML = i + " x " + j + ": " + i*j;
+                tr.appendChild(td);
+                tbody.appendChild(tr);
+            }
+        }
+    </script>
 </body>
 </html>
